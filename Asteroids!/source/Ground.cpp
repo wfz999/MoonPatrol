@@ -5,7 +5,7 @@
 #include <cstdlib>
 
 Ground::Ground() {
-    int num_points = 500;
+//    int num_points = 500;
     float loc_x = -1.5;
     float y_start = -1.0;
     float x_step1, x_step2, y_step1, y_step2;

@@ -6,4 +6,4 @@
 
 #include "shader.h"
 
-std::string shader_path = "/Users/tulane/whealy/Comp_graphics/Asteroids!/shaders/";
+std::string shader_path = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/";

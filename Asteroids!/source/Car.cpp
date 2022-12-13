@@ -32,7 +32,7 @@ Car::Car() {
     p2 = tcg::vec2(width/2., -width/2.);
     p3 = tcg::vec2(width/2., height);
 
-    state.cur_location = tcg::vec2(-1.2, -0.45);
+    state.cur_location = tcg::vec2(0.0, -0.45);
 
     Car_vert.push_back(p0); Car_uv.push_back(tcg::vec2(0.0,0.0));
     Car_vert.push_back(p1); Car_uv.push_back(tcg::vec2(0.0,1.0));
@@ -43,7 +43,7 @@ Car::Car() {
     car_bbox[1] = p3;
 
 //    std::string file_location = source_path + "sprites/default_car.png";
-    std::string file_loc = "/Users/tulane/whealy/Comp_graphics/Asteroids!/sprites/default_car.jpg";
+    std::string file_loc = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/sprites/default_car.png";
     unsigned error = lodepng::decode(car_im, im_width, im_height, file_loc.c_str());
     std::cout << im_width << " X " << im_height << " image loaded\n";
 };

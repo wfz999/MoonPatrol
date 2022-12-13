@@ -38,7 +38,7 @@ Alien1::Alien1() {
     alien1_bbox[0] = p0;
     alien1_bbox[1] = p3;
 
-    std::string file_loc = "/Users/tulane/whealy/Comp_graphics/Asteroids!/sprites/default_car.png";
+    std::string file_loc = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/sprites/default_car.png";
     unsigned error = lodepng::decode(alien1_im, im_width, im_height, file_loc.c_str());
     std::cout << im_width << " X " << im_height << " image loaded\n";
 }

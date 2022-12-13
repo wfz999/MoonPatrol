@@ -1,0 +1,1592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6591F92138EF473D8C578E84 /* update_mappings */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F1B556C0C9CF46AAB10EBCFA /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildPhases = (
+				B94191C30507422A026F8DB5 /* Generate glfw-3.3.7/src/CMakeFiles/update_mappings */,
+			);
+			dependencies = (
+			);
+			name = update_mappings;
+			productName = update_mappings;
+		};
+		D3CDC31C4B1A46B1872501B9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F8E64F9DB24C445AB632B64A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C0B99156BFC7FA4B82940E0A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E0A3AB2EA33140CC8D1616F3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3546B1FEE85143D09741592E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1520CD3D05B9CC4B576FCC33 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				48C3D3DE3FD94DBF99209617 /* PBXTargetDependency */,
+				B56BBCAAED934220928DD76E /* PBXTargetDependency */,
+				64BCF3909D2146C5A7F0BAE1 /* PBXTargetDependency */,
+				7943022A117F4C389FF13BBB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F1E378A047E458F987DB316 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 6CA4181EEF754414A8C0A116 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3native.h */; };
+		0F583252D3B4462CB4D7DE6D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.cpp */ = {isa = PBXBuildFile; fileRef = CD1E32E9B0DD4A34830250B2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.cpp */; };
+		186F7F6ED53E4922B2275BE7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Texture.glsl */ = {isa = PBXBuildFile; fileRef = 0F43EB9C98D94D3BB92829FF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Texture.glsl */; };
+		19D226342FC84E04A5A82862 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.cpp */ = {isa = PBXBuildFile; fileRef = 8896426456EE4AA5BFCEBE51 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.cpp */; };
+		1B7D69D4400546B8B0DCE93D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 1828DC725B6E40CA865093C8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.h */; };
+		1E99459C55B0477388EC57C6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.h */ = {isa = PBXBuildFile; fileRef = 4F17AB1ED6FD41D29D3B1610 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.h */; };
+		23A1A14F89334DF682A2B1A3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.h */ = {isa = PBXBuildFile; fileRef = 18048EF42D6542759CAAC76E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.h */; };
+		24CAA00159BF49378573F814 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.cpp */ = {isa = PBXBuildFile; fileRef = 6A870AD04A654D6390FCAFB5 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.cpp */; };
+		2E8E4E74C97E4EE3BD38215D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/loadTexture.h */ = {isa = PBXBuildFile; fileRef = 8BB4880F217D46828D3AC3EA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/loadTexture.h */; };
+		3323E841390448B1ACDA58F4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 738064287E98440BB8492190 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.c */; };
+		34600FB67D814A9587D841CF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.h */ = {isa = PBXBuildFile; fileRef = ADE1BB340FCF4F398B2B24A8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.h */; };
+		36F7C35B3606406C80C5A147 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 20CF4A21F05C45A9BA20FFF6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/vulkan.c */; };
+		40B29EA6833146299A9A482A /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 0F331262217C464CBD4DE290 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.h */; };
+		4821089FBC0A498E95BDF1AD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 28A5FA6E9EBC45FDA7C94227 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist */; };
+		4AE8EE4800314D3096567BC8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.h */ = {isa = PBXBuildFile; fileRef = E8FD68AD43FC47E4A3AFD113 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.h */; };
+		4B6C9A85DB3348A792D6BD9C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Asteroid.glsl */ = {isa = PBXBuildFile; fileRef = 82E6323CD6484EB79A9BD410 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Asteroid.glsl */; };
+		4C07528D652945E198DAA340 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.h */ = {isa = PBXBuildFile; fileRef = 2FFBB625258F465CA3582EC7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.h */; };
+		4E41F4B0FC6C4FE99A0077D8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ship.glsl */ = {isa = PBXBuildFile; fileRef = 35587BBCA6DE4013A23C26F9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ship.glsl */; };
+		4F8A9597F63F4AAD9A3D4CA8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = B5E9393072AC42DF9438C352 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/glfw_config.h */; };
+		51A5400D66D340809794B499 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 98E51853190C483DBB5485E3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/monitor.c */; };
+		53992D0B1AAA4564A9108A54 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F97EA7C64A9741808563AAEB /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */; };
+		5559AFE4BC7E47258C508091 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/shader.cpp */ = {isa = PBXBuildFile; fileRef = C05934D841DB4A07907055D1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/shader.cpp */; };
+		5787D02EA18A498FA3C986CA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 8AD155886D1E49DFB2D01780 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.c */; };
+		5DAD438FBA444294B405437E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.cpp */ = {isa = PBXBuildFile; fileRef = A1427305D2604E1D8CE6DFF6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.cpp */; };
+		5F4578FE17DC4BB5A75B0B40 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = EB555D31D00E4A2DAEB1322D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.c */; };
+		6242B8A7450A492B8D48C277 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.cpp */ = {isa = PBXBuildFile; fileRef = 80957D9A1425452283422DE2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.cpp */; };
+		6390AA6510AD456D985C60CE /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/main.cpp */ = {isa = PBXBuildFile; fileRef = 964C4E5D7D1B42AD813647B1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/main.cpp */; };
+		6B697AC2869845D8B9D57987 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = D34045087C614335A4FF1E41 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_init.m */; };
+		6D5505931E144939AB6E4A31 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ground.glsl */ = {isa = PBXBuildFile; fileRef = 1247FC5C2B814DF08EBE5B53 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ground.glsl */; };
+		6DE6AD793D2C44D3BBD3DA2F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Car.glsl */ = {isa = PBXBuildFile; fileRef = 686B1ADD13224F5B938B52A6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Car.glsl */; };
+		74525AF2334C43B6899D3815 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/input.c */ = {isa = PBXBuildFile; fileRef = 7C5983F9302C4D8CAE8D444C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/input.c */; };
+		76110E9673A043B992673D1B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 473F3B271B3E4C038FCBFA36 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_window.m */; };
+		7CF93529A9094A31BD0282CD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Car.glsl */ = {isa = PBXBuildFile; fileRef = BA577BE06C8B4BD58061DE1B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Car.glsl */; };
+		7F953A678B594D5B81C70889 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ground.glsl */ = {isa = PBXBuildFile; fileRef = 5D49406847364BF394DECF39 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ground.glsl */; };
+		869D03E58681431D9BBE8F48 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/context.c */ = {isa = PBXBuildFile; fileRef = 9E1BCEA864654BA3BD190C58 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/context.c */; };
+		8719F70F966D43F6A116DD74 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/internal.h */ = {isa = PBXBuildFile; fileRef = 5D4F0C2E89F64DFF89D9E407 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/internal.h */; };
+		8BE6A056E0B74708853D8D8B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_gl.c */ = {isa = PBXBuildFile; fileRef = 22F100D56587417C88C3BE07 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_gl.c */; };
+		8D21F46278FE4DC9A9486244 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/window.c */ = {isa = PBXBuildFile; fileRef = E6EEA0BC127B48C98809D1E2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/window.c */; };
+		91101C7BF9604517A63E723F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Texture.glsl */ = {isa = PBXBuildFile; fileRef = 1F1B5A65EF4345F1BC3FD784 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Texture.glsl */; };
+		916308F5A42D4FF5816014D0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.h */ = {isa = PBXBuildFile; fileRef = 5631C51C9D9941B6A082766D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.h */; };
+		96AFC05653DF4511B4A5362B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.cpp */ = {isa = PBXBuildFile; fileRef = A6C1B1DB20CA43A2B93751E7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.cpp */; };
+		97F6B5D835F24F21B3B81299 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_vulkan.c */ = {isa = PBXBuildFile; fileRef = 93651D0167A04ED682E1DE33 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_vulkan.c */; };
+		98C9CBC15C7B47B2A90A52DD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 2683B993B5824D58B47111C4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_platform.h */; };
+		9E23BB16EBCE4EEF94E2EDA6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = BB0B5C207E7A4BCE83B9D2E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_time.c */; };
+		A25C8B9225354E72BF9E1D4D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common.h */ = {isa = PBXBuildFile; fileRef = 6CB4E7E4FFFB4ADF93D5CBAC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common.h */; };
+		A442DE8884104245AF178789 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 0C033EF1406A4D61BEAF01A3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.h */; };
+		A7E0A15E641B4185B76E348D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 44A957C59E0C43F4ACB72998 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3.h */; };
+		A89D678295B546358A753F14 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad/gl.h */ = {isa = PBXBuildFile; fileRef = A4A0CF0F49204FECB3C7A09E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad/gl.h */; };
+		A9EBAD62CD1844CBB868054E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3D69A5905F3C4D8EA801CA9E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/CMakeLists.txt */; };
+		BC047D7207E34D0CB0A025AE /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.h */ = {isa = PBXBuildFile; fileRef = FE7BEEBCEF2D4A2387D622F3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.h */; };
+		BCD2D2B9359246B98F51E0E0 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = E7D4CE11D0D44E2CBCDDAD35 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.h */; };
+		BE326139413148CE81F4C753 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.h */ = {isa = PBXBuildFile; fileRef = B39D7D4CD5FA4B309E80B3C2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.h */; };
+		C32A0BE34B4C450D88B6C657 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Asteroid.glsl */ = {isa = PBXBuildFile; fileRef = 8CF617234B2445D78957F459 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Asteroid.glsl */; };
+		C3AFD2B05B88465397CA4462 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ship.glsl */ = {isa = PBXBuildFile; fileRef = 4CC7F96A52D942768C7C28BA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ship.glsl */; };
+		C4407038C36647E5B4CB2CE9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.h */ = {isa = PBXBuildFile; fileRef = 4E857E06C693471EA5B5FC9C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.h */; };
+		C738A8A798ED4ADFB7B3DCC7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/tinycthread.c */ = {isa = PBXBuildFile; fileRef = A9B5488DBE0549DB98ECE5F1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/tinycthread.c */; };
+		CCE9C3E4CDB3417190C5343C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = BEF2883ABD44430FA5A229A7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.m */; };
+		CCFDA0BED2F54B5E96D54F48 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 3F419469D9784AB4B53DB4AD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.h */; };
+		D10AECAF333249F885949225 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.cpp */ = {isa = PBXBuildFile; fileRef = 339A0061DD3E46DBA16191E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.cpp */; };
+		D2F8227224E24E72877E9BFC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 139A18882AD54BD08068151E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/mappings.h */; };
+		D451E61F7D5C457196B9A40F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/init.c */ = {isa = PBXBuildFile; fileRef = EFE46ABF57664FC6858BAD45 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/init.c */; };
+		E3069715073C439AB2711E35 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B5FBCADB283044629C55B283 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */; };
+		E6F9191DCC084756B917F192 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 910AECD1CABC4BA0B12D9848 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_monitor.m */; };
+		E8E64946C528450D9429F0FD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 8F4294E464A144C8925E2356 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.m */; };
+		ED11BD6AFDEE484D8A24DBEC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.cpp */ = {isa = PBXBuildFile; fileRef = B88B4D0057A649CEBC05E16B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.cpp */; };
+		F8E7805AA61C45DCB3C7C314 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = D24E7C75B0AE4A939A3B5A0B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.cpp */; };
+		FAE8B4F25E0E469BBFA4A298 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/shader_process.h */ = {isa = PBXBuildFile; fileRef = 0F91B6B0FDD44A2AB3516CC4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/shader_process.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2AB61177937B4237AF44EFF2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3FA975B940194C59B93B8D93 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		870F9FFE34B042A58C6963E8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D75E74910E6D455BB0B48AB4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0432C1FDE8334132BFFFEDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CDC31C4B1A46B1872501B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		3FF3FFBE4DC14AFDA2CA20B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF022A887D3A4395A603AEA1;
+			remoteInfo = glfw;
+		};
+		50893D9687CE447F9B533A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC82EF6007C6408BAF16D818;
+			remoteInfo = glad;
+		};
+		5CDD2C065F604BED95640BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CDC31C4B1A46B1872501B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		BED9F401BD154009B9EDEF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CDC31C4B1A46B1872501B9;
+			remoteInfo = ZERO_CHECK;
+		};
+		DF0FF5B94E3944EE97D38B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9709833DE0B94CE7BF1F0449;
+			remoteInfo = asteroids;
+		};
+		E2CACEA19BA343F8A6B2B6BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF022A887D3A4395A603AEA1;
+			remoteInfo = glfw;
+		};
+		E5EB49DA2CA74726B32E6CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC82EF6007C6408BAF16D818;
+			remoteInfo = glad;
+		};
+		E9A48C2F56644C52A0FFE6EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FAEDF258174AE3B891C4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF022A887D3A4395A603AEA1;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C033EF1406A4D61BEAF01A3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.3.7/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		0F331262217C464CBD4DE290 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = "glfw-3.3.7/src/osmesa_context.h"; sourceTree = SOURCE_ROOT; };
+		0F43EB9C98D94D3BB92829FF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Texture.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Texture.glsl; path = shaders/fshader_Texture.glsl; sourceTree = SOURCE_ROOT; };
+		0F91B6B0FDD44A2AB3516CC4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/shader_process.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader_process.h; path = source/utils/shader_process.h; sourceTree = SOURCE_ROOT; };
+		1247FC5C2B814DF08EBE5B53 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ground.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ground.glsl; path = shaders/fshader_Ground.glsl; sourceTree = SOURCE_ROOT; };
+		139A18882AD54BD08068151E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = "glfw-3.3.7/src/mappings.h"; sourceTree = SOURCE_ROOT; };
+		18048EF42D6542759CAAC76E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lodepng.h; path = source/utils/lodepng.h; sourceTree = SOURCE_ROOT; };
+		1828DC725B6E40CA865093C8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = "glfw-3.3.7/src/egl_context.h"; sourceTree = SOURCE_ROOT; };
+		1DD4B1E1DBA94AD2B6A78CBA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1F1B5A65EF4345F1BC3FD784 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Texture.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Texture.glsl; path = shaders/vshader_Texture.glsl; sourceTree = SOURCE_ROOT; };
+		20CF4A21F05C45A9BA20FFF6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.3.7/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		22E6092376544944885C2DB3 /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = asteroids; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F100D56587417C88C3BE07 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad_gl.c; path = "glfw-3.3.7/deps/glad_gl.c"; sourceTree = SOURCE_ROOT; };
+		2683B993B5824D58B47111C4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.3.7/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		28A5FA6E9EBC45FDA7C94227 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build2/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		2FFBB625258F465CA3582EC7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
+		339A0061DD3E46DBA16191E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ground.cpp; path = source/Ground.cpp; sourceTree = SOURCE_ROOT; };
+		35587BBCA6DE4013A23C26F9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ship.glsl; path = shaders/fshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		371B1C5B9A54439D98217605 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = "glfw-3.3.7/src/mappings.h.in"; sourceTree = SOURCE_ROOT; };
+		3D69A5905F3C4D8EA801CA9E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.3.7/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		3F419469D9784AB4B53DB4AD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = "glfw-3.3.7/src/posix_thread.h"; sourceTree = SOURCE_ROOT; };
+		44A957C59E0C43F4ACB72998 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.3.7/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		473F3B271B3E4C038FCBFA36 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.3.7/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		4CC7F96A52D942768C7C28BA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ship.glsl; path = shaders/vshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		4E857E06C693471EA5B5FC9C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Car.h; path = source/Car.h; sourceTree = SOURCE_ROOT; };
+		4F17AB1ED6FD41D29D3B1610 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Alien1.h; path = source/Alien1.h; sourceTree = SOURCE_ROOT; };
+		5631C51C9D9941B6A082766D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Wheel.h; path = source/Wheel.h; sourceTree = SOURCE_ROOT; };
+		5AD4B41AE10640FF8076A935 /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D49406847364BF394DECF39 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ground.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ground.glsl; path = shaders/vshader_Ground.glsl; sourceTree = SOURCE_ROOT; };
+		5D4F0C2E89F64DFF89D9E407 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.3.7/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		6066A75962484820910BFB4A /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		686B1ADD13224F5B938B52A6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Car.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Car.glsl; path = shaders/vshader_Car.glsl; sourceTree = SOURCE_ROOT; };
+		6A870AD04A654D6390FCAFB5 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Wheel.cpp; path = source/Wheel.cpp; sourceTree = SOURCE_ROOT; };
+		6CA4181EEF754414A8C0A116 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.3.7/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		6CB4E7E4FFFB4ADF93D5CBAC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common.h; sourceTree = SOURCE_ROOT; };
+		738064287E98440BB8492190 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = "glfw-3.3.7/src/osmesa_context.c"; sourceTree = SOURCE_ROOT; };
+		7C5983F9302C4D8CAE8D444C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.3.7/src/input.c"; sourceTree = SOURCE_ROOT; };
+		80957D9A1425452283422DE2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Asteroid.cpp; path = source/Asteroid.cpp; sourceTree = SOURCE_ROOT; };
+		82E6323CD6484EB79A9BD410 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Asteroid.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Asteroid.glsl; path = shaders/fshader_Asteroid.glsl; sourceTree = SOURCE_ROOT; };
+		8896426456EE4AA5BFCEBE51 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = u8names.cpp; path = source/utils/u8names.cpp; sourceTree = SOURCE_ROOT; };
+		8AD155886D1E49DFB2D01780 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = "glfw-3.3.7/src/egl_context.c"; sourceTree = SOURCE_ROOT; };
+		8B72CED380FB49A2977070E6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.3.7/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		8BB4880F217D46828D3AC3EA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/loadTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = loadTexture.h; path = source/utils/loadTexture.h; sourceTree = SOURCE_ROOT; };
+		8CF617234B2445D78957F459 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Asteroid.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Asteroid.glsl; path = shaders/vshader_Asteroid.glsl; sourceTree = SOURCE_ROOT; };
+		8F4294E464A144C8925E2356 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.3.7/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		910AECD1CABC4BA0B12D9848 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.3.7/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		93651D0167A04ED682E1DE33 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad_vulkan.c; path = "glfw-3.3.7/deps/glad_vulkan.c"; sourceTree = SOURCE_ROOT; };
+		964C4E5D7D1B42AD813647B1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		98E51853190C483DBB5485E3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.3.7/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		9E1BCEA864654BA3BD190C58 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.3.7/src/context.c"; sourceTree = SOURCE_ROOT; };
+		9F478F43AB9C4304B9289FC2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = "glfw-3.3.7/CMake/GenerateMappings.cmake"; sourceTree = SOURCE_ROOT; };
+		A1427305D2604E1D8CE6DFF6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Alien1.cpp; path = source/Alien1.cpp; sourceTree = SOURCE_ROOT; };
+		A4A0CF0F49204FECB3C7A09E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad/gl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gl.h; path = "glfw-3.3.7/deps/glad/gl.h"; sourceTree = SOURCE_ROOT; };
+		A6C1B1DB20CA43A2B93751E7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
+		A9B5488DBE0549DB98ECE5F1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/tinycthread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tinycthread.c; path = "glfw-3.3.7/deps/tinycthread.c"; sourceTree = SOURCE_ROOT; };
+		ADE1BB340FCF4F398B2B24A8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Asteroid.h; path = source/Asteroid.h; sourceTree = SOURCE_ROOT; };
+		B39D7D4CD5FA4B309E80B3C2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Game.h; path = source/Game.h; sourceTree = SOURCE_ROOT; };
+		B5E9393072AC42DF9438C352 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "build2/glfw-3.3.7/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		B5FBCADB283044629C55B283 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B88B4D0057A649CEBC05E16B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Car.cpp; path = source/Car.cpp; sourceTree = SOURCE_ROOT; };
+		BA577BE06C8B4BD58061DE1B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Car.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Car.glsl; path = shaders/fshader_Car.glsl; sourceTree = SOURCE_ROOT; };
+		BB0B5C207E7A4BCE83B9D2E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.3.7/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		BEF2883ABD44430FA5A229A7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.3.7/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		C05934D841DB4A07907055D1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = shaders/shader.cpp; sourceTree = SOURCE_ROOT; };
+		CD1E32E9B0DD4A34830250B2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = source/Game.cpp; sourceTree = SOURCE_ROOT; };
+		D24E7C75B0AE4A939A3B5A0B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = source/utils/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		D34045087C614335A4FF1E41 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.3.7/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		E6EEA0BC127B48C98809D1E2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.3.7/src/window.c"; sourceTree = SOURCE_ROOT; };
+		E7D4CE11D0D44E2CBCDDAD35 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.3.7/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		E8FD68AD43FC47E4A3AFD113 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ground.h; path = source/Ground.h; sourceTree = SOURCE_ROOT; };
+		EB555D31D00E4A2DAEB1322D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = "glfw-3.3.7/src/posix_thread.c"; sourceTree = SOURCE_ROOT; };
+		EFE46ABF57664FC6858BAD45 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.3.7/src/init.c"; sourceTree = SOURCE_ROOT; };
+		F97EA7C64A9741808563AAEB /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FE7BEEBCEF2D4A2387D622F3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = u8names.h; path = source/utils/u8names.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE87D9071BF64BBE8F4DCC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF95996B33949E7AA959EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D756F55A784556BDC161D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7C5165375B46C3A8AEE73D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F17AB1ED6FD41D29D3B1610 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.h */,
+				ADE1BB340FCF4F398B2B24A8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.h */,
+				4E857E06C693471EA5B5FC9C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.h */,
+				B39D7D4CD5FA4B309E80B3C2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.h */,
+				E8FD68AD43FC47E4A3AFD113 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.h */,
+				2FFBB625258F465CA3582EC7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.h */,
+				5631C51C9D9941B6A082766D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.h */,
+				6CB4E7E4FFFB4ADF93D5CBAC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common.h */,
+				8BB4880F217D46828D3AC3EA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/loadTexture.h */,
+				18048EF42D6542759CAAC76E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.h */,
+				0F91B6B0FDD44A2AB3516CC4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/shader_process.h */,
+				FE7BEEBCEF2D4A2387D622F3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		0EAA9D5A475246159ACE74CA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F100D56587417C88C3BE07 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_gl.c */,
+				93651D0167A04ED682E1DE33 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_vulkan.c */,
+				A9B5488DBE0549DB98ECE5F1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/tinycthread.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		200A25D0EF5A4525A830CBC3 = {
+			isa = PBXGroup;
+			children = (
+				9ECA3C541FA1467589D75C2B /* glad */,
+				F0C8CDE2705141C59D6B9048 /* asteroids */,
+				ED0F7154307B4692BDA5E8AD /* ALL_BUILD */,
+				70A99F9F8F4C43BBAB52DF57 /* GLFW3 */,
+				A1519028B6224397AD12BF48 /* Products */,
+				400534A7A3F244E4935A7030 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D627127F785465DB096B5F5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05934D841DB4A07907055D1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/shader.cpp */,
+				A1427305D2604E1D8CE6DFF6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.cpp */,
+				80957D9A1425452283422DE2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.cpp */,
+				B88B4D0057A649CEBC05E16B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.cpp */,
+				CD1E32E9B0DD4A34830250B2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.cpp */,
+				339A0061DD3E46DBA16191E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.cpp */,
+				A6C1B1DB20CA43A2B93751E7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.cpp */,
+				6A870AD04A654D6390FCAFB5 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.cpp */,
+				964C4E5D7D1B42AD813647B1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/main.cpp */,
+				D24E7C75B0AE4A939A3B5A0B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.cpp */,
+				8896426456EE4AA5BFCEBE51 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2F7AE956436E4FFBB4118730 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D34045087C614335A4FF1E41 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_init.m */,
+				BEF2883ABD44430FA5A229A7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.m */,
+				910AECD1CABC4BA0B12D9848 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_monitor.m */,
+				BB0B5C207E7A4BCE83B9D2E1 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_time.c */,
+				473F3B271B3E4C038FCBFA36 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_window.m */,
+				9E1BCEA864654BA3BD190C58 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/context.c */,
+				8AD155886D1E49DFB2D01780 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.c */,
+				EFE46ABF57664FC6858BAD45 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/init.c */,
+				7C5983F9302C4D8CAE8D444C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/input.c */,
+				98E51853190C483DBB5485E3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/monitor.c */,
+				8F4294E464A144C8925E2356 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.m */,
+				738064287E98440BB8492190 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.c */,
+				EB555D31D00E4A2DAEB1322D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.c */,
+				20CF4A21F05C45A9BA20FFF6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/vulkan.c */,
+				E6EEA0BC127B48C98809D1E2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		319BF60938BB46F3BB80B727 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0CF0F49204FECB3C7A09E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad/gl.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		400534A7A3F244E4935A7030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		545001116F54410BB85D4FEC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6536084AC1854EDBB14077B6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				371B1C5B9A54439D98217605 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		67B1FF44EB574D5098E74029 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		70A99F9F8F4C43BBAB52DF57 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				E9B82BCDCA4447D580420185 /* update_mappings */,
+				E2984FBDFED64AFEBD610818 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		96F4BFF1FF8C44EB863E4F90 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E9393072AC42DF9438C352 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/glfw_config.h */,
+				44A957C59E0C43F4ACB72998 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3.h */,
+				6CA4181EEF754414A8C0A116 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include/GLFW/glfw3native.h */,
+				0C033EF1406A4D61BEAF01A3 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.h */,
+				2683B993B5824D58B47111C4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_platform.h */,
+				1828DC725B6E40CA865093C8 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.h */,
+				5D4F0C2E89F64DFF89D9E407 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/internal.h */,
+				139A18882AD54BD08068151E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/mappings.h */,
+				E7D4CE11D0D44E2CBCDDAD35 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.h */,
+				0F331262217C464CBD4DE290 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.h */,
+				3F419469D9784AB4B53DB4AD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9ECA3C541FA1467589D75C2B /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				319BF60938BB46F3BB80B727 /* Header Files */,
+				0EAA9D5A475246159ACE74CA /* Source Files */,
+				B5FBCADB283044629C55B283 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		A1519028B6224397AD12BF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E6092376544944885C2DB3 /* asteroids */,
+				5AD4B41AE10640FF8076A935 /* glad */,
+				6066A75962484820910BFB4A /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4082E4C7A814AF2A2B3B11D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28A5FA6E9EBC45FDA7C94227 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2984FBDFED64AFEBD610818 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				2F7AE956436E4FFBB4118730 /* Source Files */,
+				96F4BFF1FF8C44EB863E4F90 /* Header Files */,
+				3D69A5905F3C4D8EA801CA9E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		E9B82BCDCA4447D580420185 /* update_mappings */ = {
+			isa = PBXGroup;
+			children = (
+				6536084AC1854EDBB14077B6 /* Header Files */,
+				67B1FF44EB574D5098E74029 /* CMake Rules */,
+				9F478F43AB9C4304B9289FC2 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/CMake/GenerateMappings.cmake */,
+				8B72CED380FB49A2977070E6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/CMakeLists.txt */,
+			);
+			name = update_mappings;
+			sourceTree = "<group>";
+		};
+		ED0F7154307B4692BDA5E8AD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				545001116F54410BB85D4FEC /* CMake Rules */,
+				1DD4B1E1DBA94AD2B6A78CBA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F0C8CDE2705141C59D6B9048 /* asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				0C7C5165375B46C3A8AEE73D /* Header Files */,
+				2D627127F785465DB096B5F5 /* Source Files */,
+				C4082E4C7A814AF2A2B3B11D /* Resources */,
+				F97EA7C64A9741808563AAEB /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/CMakeLists.txt */,
+				82E6323CD6484EB79A9BD410 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Asteroid.glsl */,
+				BA577BE06C8B4BD58061DE1B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Car.glsl */,
+				1247FC5C2B814DF08EBE5B53 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ground.glsl */,
+				35587BBCA6DE4013A23C26F9 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Ship.glsl */,
+				0F43EB9C98D94D3BB92829FF /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/fshader_Texture.glsl */,
+				8CF617234B2445D78957F459 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Asteroid.glsl */,
+				686B1ADD13224F5B938B52A6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Car.glsl */,
+				5D49406847364BF394DECF39 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ground.glsl */,
+				4CC7F96A52D942768C7C28BA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Ship.glsl */,
+				1F1B5A65EF4345F1BC3FD784 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/vshader_Texture.glsl */,
+			);
+			name = asteroids;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9709833DE0B94CE7BF1F0449 /* asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C16F173BBF4480CA21C592F /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildPhases = (
+				7F5B614AE51D4409A9BC4CAD /* Sources */,
+				BE87D9071BF64BBE8F4DCC3F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96433E0856124D649AF256A5 /* PBXTargetDependency */,
+				4380F1E8AF864B8781669D68 /* PBXTargetDependency */,
+				39A8E5B3D03B4E6FACE27EAB /* PBXTargetDependency */,
+			);
+			name = asteroids;
+			productName = asteroids;
+			productReference = 22E6092376544944885C2DB3 /* asteroids */;
+			productType = "com.apple.product-type.application";
+		};
+		AF022A887D3A4395A603AEA1 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14644C2F7764C3792DC2333 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				FEA7FAC318594FE998E474DA /* Sources */,
+				CCF95996B33949E7AA959EE0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 6066A75962484820910BFB4A /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC82EF6007C6408BAF16D818 /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26122841E2E4C0C8CC93B03 /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				12733FF68B314C15A722CEC9 /* Sources */,
+				E9D756F55A784556BDC161D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F75A311446744C185ED7E6A /* PBXTargetDependency */,
+				56EDC91CED00406E82E4F8BA /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = 5AD4B41AE10640FF8076A935 /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FAEDF258174AE3B891C4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 7FCC40A10B1649F09559A454 /* Build configuration list for PBXProject "ASTEROIDS" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3FA975B940194C59B93B8D93 /* Debug */,
+				2AB61177937B4237AF44EFF2 /* Release */,
+				D75E74910E6D455BB0B48AB4 /* MinSizeRel */,
+				870F9FFE34B042A58C6963E8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 200A25D0EF5A4525A830CBC3;
+			projectDirPath = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!";
+			projectRoot = "";
+			targets = (
+				E0A3AB2EA33140CC8D1616F3 /* ALL_BUILD */,
+				D3CDC31C4B1A46B1872501B9 /* ZERO_CHECK */,
+				9709833DE0B94CE7BF1F0449 /* asteroids */,
+				CC82EF6007C6408BAF16D818 /* glad */,
+				AF022A887D3A4395A603AEA1 /* glfw */,
+				6591F92138EF473D8C578E84 /* update_mappings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1520CD3D05B9CC4B576FCC33 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B94191C30507422A026F8DB5 /* Generate glfw-3.3.7/src/CMakeFiles/update_mappings */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate glfw-3.3.7/src/CMakeFiles/update_mappings";
+			outputPaths = (
+"/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/CMakeFiles/update_mappings"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C0B99156BFC7FA4B82940E0A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2
+  make -f /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF220574C043FA76D2683574 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12733FF68B314C15A722CEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE6A056E0B74708853D8D8B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_gl.c */,
+				97F6B5D835F24F21B3B81299 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/glad_vulkan.c */,
+				C738A8A798ED4ADFB7B3DCC7 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps/tinycthread.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5B614AE51D4409A9BC4CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559AFE4BC7E47258C508091 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders/shader.cpp */,
+				5DAD438FBA444294B405437E /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Alien1.cpp */,
+				6242B8A7450A492B8D48C277 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Asteroid.cpp */,
+				ED11BD6AFDEE484D8A24DBEC /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Car.cpp */,
+				0F583252D3B4462CB4D7DE6D /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Game.cpp */,
+				D10AECAF333249F885949225 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ground.cpp */,
+				96AFC05653DF4511B4A5362B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Ship.cpp */,
+				24CAA00159BF49378573F814 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/Wheel.cpp */,
+				6390AA6510AD456D985C60CE /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/main.cpp */,
+				F8E7805AA61C45DCB3C7C314 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/lodepng.cpp */,
+				19D226342FC84E04A5A82862 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/utils/u8names.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA7FAC318594FE998E474DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B697AC2869845D8B9D57987 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_init.m */,
+				CCE9C3E4CDB3417190C5343C /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_joystick.m */,
+				E6F9191DCC084756B917F192 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_monitor.m */,
+				9E23BB16EBCE4EEF94E2EDA6 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_time.c */,
+				76110E9673A043B992673D1B /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/cocoa_window.m */,
+				869D03E58681431D9BBE8F48 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/context.c */,
+				5787D02EA18A498FA3C986CA /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/egl_context.c */,
+				D451E61F7D5C457196B9A40F /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/init.c */,
+				74525AF2334C43B6899D3815 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/input.c */,
+				51A5400D66D340809794B499 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/monitor.c */,
+				E8E64946C528450D9429F0FD /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/nsgl_context.m */,
+				3323E841390448B1ACDA58F4 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/osmesa_context.c */,
+				5F4578FE17DC4BB5A75B0B40 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/posix_thread.c */,
+				36F7C35B3606406C80C5A147 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/vulkan.c */,
+				8D21F46278FE4DC9A9486244 /* /Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F75A311446744C185ED7E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF022A887D3A4395A603AEA1 /* glfw */;
+			targetProxy = E9A48C2F56644C52A0FFE6EA /* PBXContainerItemProxy */;
+		};
+		39A8E5B3D03B4E6FACE27EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CDC31C4B1A46B1872501B9 /* ZERO_CHECK */;
+			targetProxy = BED9F401BD154009B9EDEF8C /* PBXContainerItemProxy */;
+		};
+		4380F1E8AF864B8781669D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC82EF6007C6408BAF16D818 /* glad */;
+			targetProxy = E5EB49DA2CA74726B32E6CBF /* PBXContainerItemProxy */;
+		};
+		48C3D3DE3FD94DBF99209617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF022A887D3A4395A603AEA1 /* glfw */;
+			targetProxy = E2CACEA19BA343F8A6B2B6BD /* PBXContainerItemProxy */;
+		};
+		56EDC91CED00406E82E4F8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CDC31C4B1A46B1872501B9 /* ZERO_CHECK */;
+			targetProxy = 0432C1FDE8334132BFFFEDC8 /* PBXContainerItemProxy */;
+		};
+		64BCF3909D2146C5A7F0BAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC82EF6007C6408BAF16D818 /* glad */;
+			targetProxy = 50893D9687CE447F9B533A5D /* PBXContainerItemProxy */;
+		};
+		7943022A117F4C389FF13BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CDC31C4B1A46B1872501B9 /* ZERO_CHECK */;
+			targetProxy = 5CDD2C065F604BED95640BDF /* PBXContainerItemProxy */;
+		};
+		96433E0856124D649AF256A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF022A887D3A4395A603AEA1 /* glfw */;
+			targetProxy = 3FF3FFBE4DC14AFDA2CA20B7 /* PBXContainerItemProxy */;
+		};
+		B56BBCAAED934220928DD76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9709833DE0B94CE7BF1F0449 /* asteroids */;
+			targetProxy = DF0FF5B94E3944EE97D38B5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ABC1CA4D3E74268982FF753 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		15A3AB628435455998FC7673 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2B5848A2B606418A90D6E9B4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4B7D69F7EFDC451894877900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4F53989402444854BAD7C698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		506404268F444500AFB90DC1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		51419C04469549D49E43AD23 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		54434FEBB5C2408A99871230 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/RelWithDebInfo/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/RelWithDebInfo/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/RelWithDebInfo/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5BF55701D9754383ACB3264B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		670B1899704D45029CA0C7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		67D14780A1FB4A17A9A4EC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/Debug/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/Debug/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/Debug/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6981B5856D0A4D769AB4A570 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		78204463283747748220DE94 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/MinSizeRel/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/MinSizeRel/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/MinSizeRel/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F91996F30944925B90C3860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/build";
+			};
+			name = Release;
+		};
+		819500BCD37C48508C87AB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		82A72CD27E7D4F998083C7A6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/build";
+			};
+			name = MinSizeRel;
+		};
+		959365C126384476B7A00693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		992A82D2736145A2B7BBCE64 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A20813D53009486B99C456E7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AC35D6F7A531421ABBF8C914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D59AD04D17DF4F4FA9446483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INFOPLIST_FILE = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/Release/libglfw3.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/Release/libglad.a","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/Release/libglfw3.a","-framework Cocoa","-framework IOKit","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D97CE22E92E74E428A9A9649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/build";
+			};
+			name = Debug;
+		};
+		DACEF2B401864468B2B947C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DFCCDB96090F41EA86B34971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E4CD4494D2EB41469CB950B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F20CF0B43F5848699074374A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/src","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -Wall '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FB3FD77EF9B345F29711467D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FF32F02579D84317AB1E5050 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/deps","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/source/common","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/shaders","/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/glfw-3.3.7/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3546B1FEE85143D09741592E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3FD77EF9B345F29711467D /* Debug */,
+				4B7D69F7EFDC451894877900 /* Release */,
+				6981B5856D0A4D769AB4A570 /* MinSizeRel */,
+				992A82D2736145A2B7BBCE64 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FCC40A10B1649F09559A454 /* Build configuration list for PBXProject "ASTEROIDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97CE22E92E74E428A9A9649 /* Debug */,
+				7F91996F30944925B90C3860 /* Release */,
+				82A72CD27E7D4F998083C7A6 /* MinSizeRel */,
+				A20813D53009486B99C456E7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C16F173BBF4480CA21C592F /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D14780A1FB4A17A9A4EC90 /* Debug */,
+				D59AD04D17DF4F4FA9446483 /* Release */,
+				78204463283747748220DE94 /* MinSizeRel */,
+				54434FEBB5C2408A99871230 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B14644C2F7764C3792DC2333 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20CF0B43F5848699074374A /* Debug */,
+				819500BCD37C48508C87AB81 /* Release */,
+				DACEF2B401864468B2B947C4 /* MinSizeRel */,
+				15A3AB628435455998FC7673 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C26122841E2E4C0C8CC93B03 /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCCDB96090F41EA86B34971 /* Debug */,
+				4F53989402444854BAD7C698 /* Release */,
+				2B5848A2B606418A90D6E9B4 /* MinSizeRel */,
+				FF32F02579D84317AB1E5050 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1B556C0C9CF46AAB10EBCFA /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959365C126384476B7A00693 /* Debug */,
+				670B1899704D45029CA0C7B3 /* Release */,
+				0ABC1CA4D3E74268982FF753 /* MinSizeRel */,
+				51419C04469549D49E43AD23 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8E64F9DB24C445AB632B64A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC35D6F7A531421ABBF8C914 /* Debug */,
+				E4CD4494D2EB41469CB950B1 /* Release */,
+				506404268F444500AFB90DC1 /* MinSizeRel */,
+				5BF55701D9754383ACB3264B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FAEDF258174AE3B891C4BC /* Project object */;
+}

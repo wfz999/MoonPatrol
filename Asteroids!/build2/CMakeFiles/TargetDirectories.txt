@@ -1,0 +1,8 @@
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/glad.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/asteroids.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/ALL_BUILD.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/CMakeFiles/ZERO_CHECK.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/CMakeFiles/ALL_BUILD.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/CMakeFiles/ZERO_CHECK.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/CMakeFiles/update_mappings.dir
+/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/build2/glfw-3.3.7/src/CMakeFiles/glfw.dir

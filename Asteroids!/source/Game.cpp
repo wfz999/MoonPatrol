@@ -6,6 +6,23 @@
 
 using namespace tcg;
 
+//bool Game::CheckCollision(Ship* &one, Asteroid* &two) // AABB - AABB collision
+//{
+////    int xx = abs(one->ship_pos[0].x- one->ship_pos[2].x);
+////    std::cout<<"xx:"<<one->ship_pos[0].x- one->ship_pos[2].x;
+//    // collision x-axis?
+//    bool collisionX = one->state.cur_location.x + (one->ship_pos[2].x- one->ship_pos[0].x)>= two->state.cur_location.x &&
+//    two->state.cur_location.x + (two->asteroid_bbox[1].x -two->asteroid_bbox[0].x )>= one->state.cur_location.x;
+//    // collision y-axis?
+//    bool collisionY = one->state.cur_location.y + (one->ship_pos[1].y- one->ship_pos[0].y) >= two->state.cur_location.y &&
+//    two->state.cur_location.y + (two->asteroid_bbox[1].y -two->asteroid_bbox[0].y ) >= one->state.cur_location.y;
+//    if(collisionX && collisionY == true){
+//        game_over = true;
+//    }
+//    // collision only if on both axes
+//    return collisionX && collisionY;
+//}
+
 bool Game::testIntersections(Car *c_inter, Ground *g_inter) {
     std::vector<vec2> car_boundaries;
     float c_width, c_height, g_width, g_height;
@@ -77,3 +94,22 @@ Game::Game() {
     wheels[1] = new Wheel(2);
     wheels[2] = new Wheel(3);
 }
+
+//void Game::draw_game_over(mat4 proj){
+//  
+//  glUseProgram(GOGLvars.program);
+//  glBindVertexArray( GOGLvars.vao );
+//  glBindBuffer( GL_ARRAY_BUFFER, GOGLvars.buffer );
+//  
+//  glUniformMatrix4fv( GOGLvars.M_location, 1, GL_TRUE, proj);
+//  
+//  glBindTexture( GL_TEXTURE_2D, GOGLvars.texture  );
+//  glDrawArrays( GL_TRIANGLE_STRIP, 0, 4 );
+//  
+//  glBindVertexArray(0);
+//  glBindBuffer( GL_ARRAY_BUFFER, 0);
+//
+////  glfwSetWindowShouldClose(window, GLFW_TRUE);
+////    game_over = true;
+//    close_window = true;
+//}

@@ -27,6 +27,8 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
     if (key == GLFW_KEY_RIGHT && (action == GLFW_PRESS || action == GLFW_REPEAT)){
 //        std::cout << "pointing ";
         ship.rotateRight();}
+    if (key == GLFW_KEY_UP && (action == GLFW_PRESS || action == GLFW_REPEAT) && game->car->jump_==0)
+        game->car->jump();
   if (key == GLFW_KEY_SPACE){
     if(action == GLFW_PRESS){
 //        std::cout << "pointing ";

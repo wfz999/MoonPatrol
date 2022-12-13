@@ -20,7 +20,7 @@ class Car {
     std::vector<tcg::vec2> Car_vert;
     std::vector<tcg::vec2> Car_uv;
     unsigned im_width, im_height;
-    tcg::vec2 car_bbox[2];
+    
 
     // Initialized in constructor
     float angle_speed;
@@ -53,7 +53,8 @@ class Car {
     // tcg::mat4 M;
 
 public:
-
+    tcg::vec2 car_bbox[2];
+    int jump_ = 0;
     Car();
     void update_state(tcg::vec4 extents);
     void gl_init();
@@ -70,7 +71,9 @@ public:
 //                      accel*normalize(tcg::vec2(state.pointing.x, state.pointing.y));
 //     state.velocity = normalize(state.velocity);
 // }
-
+    inline void jump(){
+        jump_ = 10;
+    }
 
 };
 #endif /* defined(__Asteroids__Asteroid__) */

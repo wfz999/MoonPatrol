@@ -25,7 +25,7 @@ Wheel::Wheel(unsigned int index) {
 
     wheel_bbox[0] = p0;
     wheel_bbox[1] = p3;
-    std::string file_loc = "/Users/tulane/whealy/Comp_graphics/Asteroids!/sprites/wheel_1.png";
+    std::string file_loc = "/Users/wufangzheng/Documents/phd/graphics/moon-2/MoonPatrol/Asteroids!/sprites/wheel_1.png";
     unsigned error = lodepng::decode(wheel_im, im_width, im_height, file_loc.c_str());
     std::cout << im_width << " X wheel " << im_height << " image loaded\n";
 }
